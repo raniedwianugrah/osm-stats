@@ -6,7 +6,7 @@ Based on [osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) and [osmconvert](
 
 Osmconvert used to convert and process OSM data so that we can get OSM statistics such as the number of nodes, ways, and relations on a region.
 
-Osmosis used to filter OSM data based on tags (key and value) in each objects such as building, road, school, etc.
+Osmosis used to filter OSM data accordance with the tags (key and value) in each objects such as building, road, school, etc.
 
 This project has been successfully executed using the administrative boundaries in Indonesia. See the project in [openstreetmap.id](http://openstreetmap.id/en/data-openstreetmap-indonesia/) website.
 
@@ -28,6 +28,6 @@ These steps are used for Windows version.
 
 7. To calculate the statistics, run this formula ```osmconvert Aceh.pbf --out-statistics``` to get all statictics data (nodes, ways, and relations) in Aceh province. 
 
-8. Then run this formula ```osmosis --read-pbf Aceh.pbf --tf accept-ways building=* --tf reject-nodes --tf reject-relations --write-pbf Aceh_building.pbf``` to filter OSM data based on the tag (key and value) is desired. For example, this formula only filter building data. 
+8. Then run this formula ```osmosis --read-pbf Aceh.pbf --tf accept-ways building=* --tf reject-nodes --tf reject-relations --write-pbf Aceh_building.pbf``` to filter OSM data based on the tag (key and value) is desired. For example, this formula only filter building data. You can change the tag accordance with your needs. 
 
 9. To calculate the statistics, run this formula ```osmconvert Aceh.pbf --out-statistics``` to get the building statistics data (only ways) in Aceh province.
