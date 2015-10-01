@@ -2,21 +2,21 @@
 
 An experimental project for getting OSM statistics report based on administrative boundaries. 
 
-Based on osmosis and osmconvert.
+Based on [osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) and [osmconvert](http://wiki.openstreetmap.org/wiki/Osmconvert).
 
 Osmconvert used to convert and process OSM data so that we can get OSM statistics such as the number of nodes, ways, and relations on a region.
 
 Osmosis used to filter OSM data based on tags (key and value) in each objects such as building, road, school, etc.
 
-This project has been successfully executed using the administrative boundaries in Indonesia. See the project in openstreetmap.id website (http://openstreetmap.id/en/data-openstreetmap-indonesia/)
+This project has been successfully executed using the administrative boundaries in Indonesia. See the project in [openstreetmap.id website](http://openstreetmap.id/en/data-openstreetmap-indonesia/).
 
 ## How to run it 
 
 These steps are used for Windows version. 
 
-1. Install osmconvert (http://wiki.openstreetmap.org/wiki/Osmconvert) and osmosis (http://wiki.openstreetmap.org/wiki/Osmosis) on your laptop. 
+1. Install [osmconvert](http://wiki.openstreetmap.org/wiki/Osmconvert) and [osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) on your laptop. 
 
-2. Download the latest OSM data in website geofabrik (http://download.geofabrik.de/) in .osm.pbf format. For example, we use Indonesia data (indonesia-latest.osm.pbf)
+2. Download the latest OSM data in website [geofabrik](http://download.geofabrik.de/) in .osm.pbf format. For example, we use Indonesia data (indonesia-latest.osm.pbf)
 
 3. To get an administrative boundary as cutter, we are using overpass-turbo.eu website to filter the administrative boundaries with .osm format. For example, Aceh administrative boundary.
 
